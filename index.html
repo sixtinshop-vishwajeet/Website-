@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasty Bites Restaurant</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav{
+    background:#333;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+/* Hero Section */
+.hero{
+    background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836") center/cover no-repeat;
+    height:400px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+}
+
+/* Sections */
+section{
+    padding:50px;
+    text-align:center;
+}
+
+.menu-items{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.item{
+    border:1px solid #ddd;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#menu">Menu</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h1>Welcome to Tasty Bites</h1>
+</div>
+
+<section id="menu">
+<h2>Our Menu</h2>
+
+<div class="menu-items">
+<div class="item">
+<h3>Pizza</h3>
+<p>Delicious cheesy pizza</p>
+<p>$10</p>
+</div>
+
+<div class="item">
+<h3>Burger</h3>
+<p>Juicy grilled burger</p>
+<p>$8</p>
+</div>
+
+<div class="item">
+<h3>Pasta</h3>
+<p>Creamy Italian pasta</p>
+<p>$9</p>
+</div>
+</div>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>We serve fresh and tasty food made with love. Our restaurant offers the best dining experience with quality ingredients and friendly service.</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: tastybites@email.com</p>
+<p>Phone: +123 456 7890</p>
+</section>
+
+<footer>
+<p>© 2026 Tasty Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
